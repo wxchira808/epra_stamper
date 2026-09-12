@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Asset backups and test files
+stamper/assets/*test_opt.png
+stamper/assets/*backup.png
+
+# PDF input & output directories (ignore PDFs, preserve folders via .gitkeep)
+*.pdf
+!stamper/sample_output/*.pdf
+completions and commencements/*.pdf
+completions and commencements/output/*.pdf
+completions and commencments/*.pdf
+completions and commencments/output/*.pdf
+stamper/input/*.pdf
+stamper/input/output/*.pdf
+stamper/output/*.pdf
+stamper/sample_output/.~lock.*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
